@@ -159,6 +159,10 @@ a:hover {
 	content: "\e003";
 }
 
+.bp-icon-about:hover {
+	cursor: help;
+}
+
 .demos {
 	display: inline-block;
 	line-height: 2.4em;
