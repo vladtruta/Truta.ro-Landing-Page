@@ -16,27 +16,31 @@
 		<div class="container">
 			<div id="splitlayout" class="splitlayout">
 				<div class="intro">
-					<a href="http://www.rabitind.truta.ro">
-						<div class="side side-left">
-							<header class="codropsheader clearfix">
-								<span>Truta.ro <span class="help-cursor bp-icon bp-icon-about" data-content="Welcome to truta.ro! This is our place on the Internet. Currently, we have two pages under our name. For more information about what we do, check out our individual websites!"></span></span>
-							</header>
-							<div class="intro-content">
-								<div class="profile"><img src="img/rabitind_logo.png" alt="Rabitind Logo"></div>
-								<h1><span>Rabitind</span><span>Diesel Repair</span></h1>
-							</div>						
+					<div class="side side-left" id="left">
+						<header class="codropsheader clearfix">
+							<span>truta.ro <span class="bp-icon bp-icon-about" data-content="Welcome to truta.ro! This is our place on the Internet. Currently, we have two pages under our name. For more information about what we do, check out our individual websites!"></span></span>
+							<!-- <h1>Welcome</h1> -->
+							<nav>								
+								<a href="https://github.com/vladtruta/Truta.ro-Landing-Page" target="_blank" class="bp-icon bp-icon-archive" data-info="Source Code"><span>View Source Code</span></a>
+							</nav>							
+						</header>
+						<div class="intro-content" id="intro-left" onclick="location.href='http://rabitind.truta.ro/';" onmouseover="changeBackground();">
+							<div class="profile"><img src="img/rabitind_logo.png" alt="Rabitind Logo"></div>
+							<h1><span>Rabitind </span><span>Diesel Service</span></h1>
 						</div>
-					</a>
-					<a href="http://www.vlad.truta.ro">
-						<div class="side side-right">
-							<div class="intro-content">
-								<div class="profile profile-right"><img src="img/tankbird_logo.png" alt="Vlad Truta Tankbird Logo"></div>
-								<h1><span>Vlad Truta</span><span>Code Gunslinger</span></h1>
-							</div>						
+						<div class="overlay"></div>
+					</div>
+					<div class="side side-right" id="right">
+						<div class="intro-content" id="intro-right" onclick="location.href='http://vlad.truta.ro/';">
+							<div class="profile"><img src="img/tankbird_logo.png" alt="Vlad Truta Tankbird Logo"></div>
+							<h1><span>Vlad Truta </span><span>Code Gunslinger</span></h1>
 						</div>
-					</a>
-				</div><!-- /intro -->				
+						<div class="overlay"></div>
+					</div>
+				</div><!-- /intro -->												
 			</div><!-- /splitlayout -->
 		</div><!-- /container -->		
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="js/hover.js"></script>
 	</body>
 </html>
