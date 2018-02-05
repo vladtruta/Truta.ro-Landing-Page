@@ -24,7 +24,7 @@ body {
 	z-index: 100;
 	width: 50%;
 	height: 100%;
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	text-align: center;
 	-webkit-backface-visibility: hidden;
 }
