@@ -202,5 +202,5 @@ a:hover {
 }
 
 @media screen and (max-height: 30.25em) {
-	.codropsheader nav { display: none; }
+	/*.codropsheader nav { display: none; }*/
 }
